@@ -29,20 +29,38 @@ export function createMockData(): ComparisonData {
     },
     dimensions: {
       geographies: {
-        global: ['Global'],
-        regions: [],
-        countries: {},
-        all_geographies: ['Global']
+        global: [],
+        regions: ['West Africa'],
+        countries: {
+          'West Africa': ['Nigeria', 'Senegal', 'Mauritania', 'Cameroon', 'Ghana', 'Rest of West Africa']
+        },
+        all_geographies: ['West Africa', 'Nigeria', 'Senegal', 'Mauritania', 'Cameroon', 'Ghana', 'Rest of West Africa']
       },
       segments: {
-        'By End-Use*Product Type': {
-          type: 'hierarchical',
-          items: [],
-          hierarchy: {},
-          b2b_hierarchy: {},
-          b2c_hierarchy: {},
-          b2b_items: [],
-          b2c_items: []
+        'By Type of LNG Production System': {
+          type: 'flat',
+          items: ['Onshore LNG Production Systems', 'Floating (FLNG) Production Systems', 'Small Scale LNG Production Systems', 'Others (Modular LNG Plants, Micro LNG Plants and Etc.)'],
+          hierarchy: {}
+        },
+        'By Liquefaction Technology': {
+          type: 'flat',
+          items: ['APCI Liquefaction Technology', 'Cascade Liquefaction Technology', 'Mixed Refrigerant Liquefaction Technology', 'Others (Dual Mixed Refrigerant Technology, Nitrogen Expansion Technology, Optimized Cascade Process and Etc.)'],
+          hierarchy: {}
+        },
+        'By Component': {
+          type: 'flat',
+          items: ['Liquefaction Units', 'Gas Pre treatment Systems', 'Refrigeration and Compression Systems', 'Others (Heat Exchangers, Cryogenic Pumps, LNG Storage Tanks, Control and Monitoring Systems and Etc.)'],
+          hierarchy: {}
+        },
+        'By Capacity': {
+          type: 'flat',
+          items: ['Small-Scale LNG Plants (Less than 1 MTPA)', 'Mid-Scale LNG Plants (1-5 MTPA)', 'Large-Scale LNG Plants (Greater than 5 MTPA)'],
+          hierarchy: {}
+        },
+        'By End Use Application': {
+          type: 'flat',
+          items: ['LNG Export Terminals', 'Peak Shaving Facilities', 'Fuel Supply for Transportation', 'Others (Industrial Fuel Supply, Remote Power Generation, Marine Bunkering and Etc.)'],
+          hierarchy: {}
         }
       }
     },

@@ -1,62 +1,42 @@
 {
   "Global": {
-    "By Type": {
-      "Sub-Normothermic Perfusion (20–34°C)": {},
-      "Warm or Normothermic Perfusion (35–37°C)": {}
+    "By Type of LNG Production System": {
+      "Onshore LNG Production Systems": {},
+      "Floating (FLNG) Production Systems": {},
+      "Small Scale LNG Production Systems": {},
+      "Others (Modular LNG Plants, Micro LNG Plants and Etc.)": {}
     },
-    "By Organ Type": {
-      "Liver": {},
-      "Heart": {},
-      "Lung": {},
-      "Kidney": {},
-      "Others (Pancreas, Small bowel / Intestine, Composite Tissues / Limb Perfusion (emerging use cases))": {}
+    "By Liquefaction Technology": {
+      "APCI Liquefaction Technology": {},
+      "Cascade Liquefaction Technology": {},
+      "Mixed Refrigerant Liquefaction Technology": {},
+      "Others (Dual Mixed Refrigerant Technology, Nitrogen Expansion Technology, Optimized Cascade Process and Etc.)": {}
     },
-    "Application / Use Case": {
-      "Organ Preservation": {},
-      "Viability Assessment": {},
-      "Physiologic Transport": {},
-      "Reconditioning Marginal Organs": {},
-      "Others (Research Use / Protocol development)": {}
+    "By Component": {
+      "Liquefaction Units": {},
+      "Gas Pre treatment Systems": {},
+      "Refrigeration and Compression Systems": {},
+      "Others (Heat Exchangers, Cryogenic Pumps, LNG Storage Tanks, Control and Monitoring Systems and Etc.)": {}
     },
-    "By End User": {
-      "Hospitals & Clinics": {},
-      "Specialty Clinic/Centers": {},
-      "Transplant Centers": {},
-      "Others (Research Institutes/Centers, Organ Procurement Organizations, etc.)": {}
+    "By Capacity": {
+      "Small-Scale LNG Plants (Less than 1 MTPA)": {},
+      "Mid-Scale LNG Plants (1-5 MTPA)": {},
+      "Large-Scale LNG Plants (Greater than 5 MTPA)": {}
+    },
+    "By End Use Application": {
+      "LNG Export Terminals": {},
+      "Peak Shaving Facilities": {},
+      "Fuel Supply for Transportation": {},
+      "Others (Industrial Fuel Supply, Remote Power Generation, Marine Bunkering and Etc.)": {}
     },
     "By Region": {
-      "North America": {
-        "U.S.": {},
-        "Canada": {}
-      },
-      "Europe": {
-        "U.K.": {},
-        "Germany": {},
-        "Italy": {},
-        "France": {},
-        "Spain": {},
-        "Russia": {},
-        "Rest of Europe": {}
-      },
-      "Asia Pacific": {
-        "China": {},
-        "India": {},
-        "Japan": {},
-        "South Korea": {},
-        "ASEAN": {},
-        "Australia": {},
-        "Rest of Asia Pacific": {}
-      },
-      "Latin America": {
-        "Brazil": {},
-        "Argentina": {},
-        "Mexico": {},
-        "Rest of Latin America": {}
-      },
-      "Middle East & Africa": {
-        "GCC": {},
-        "South Africa": {},
-        "Rest of Middle East & Africa": {}
+      "West Africa": {
+        "Nigeria": {},
+        "Senegal": {},
+        "Mauritania": {},
+        "Cameroon": {},
+        "Ghana": {},
+        "Rest of West Africa": {}
       }
     }
   }
