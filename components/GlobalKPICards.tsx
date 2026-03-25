@@ -275,9 +275,11 @@ export function GlobalKPICards() {
           </div>
         </div>
         <div className="mt-2 pt-2 border-t border-gray-300">
-          <p className="text-[10px] text-red-600 font-semibold">
-            NOTE: All the data in this is demo data. NO real-world data is related to this.
-          </p>
+          <div className="bg-yellow-50 border border-yellow-400 rounded px-3 py-1.5">
+            <p className="text-[10px] text-red-600 font-semibold">
+              NOTE: All the data in this is demo data. NO real-world data is related to this.
+            </p>
+          </div>
         </div>
       </div>
     </div>
